@@ -13,6 +13,7 @@ module.exports = {
       'sans-body-alternative': ['Barlow', 'Roboto', 'sans-serif'],
     },
     colors: {
+      transparent: colors.transparent,
       orange: {
         DEFAULT: '#ec7423'
       },
@@ -29,29 +30,29 @@ module.exports = {
         'splash': "url('/images/top-bg.jpg')",
         'cta-pattern': "url('/images/cta-bg.png')",
         'code-illustration': "url('/images/code-illustration.png')",
+        'guy-illustration-2': "url('/images/david2.png')"
       }),
       scale: {
         '-1': '-1',
       },
       zIndex: {
         '-1': '-1',
+      },
+      screens: {
+        '2xl': '1280px',
+      },
+      backgroundSize: {
+        '60%': '60%',
+      },
+      backgroundPosition: {
+        'top-1': '1rem top',
+      },
+      rotate: {
+        '225': '225deg',
+      },
+      padding: {
+        '65%': '65%',
       }
-    },
-    screens: {
-      'sm': '640px',
-      // => @media (min-width: 640px) { ... }
-
-      'md': '768px',
-      // => @media (min-width: 768px) { ... }
-
-      'lg': '1024px',
-      // => @media (min-width: 1024px) { ... }
-
-      'xl': '1280px',
-      // => @media (min-width: 1280px) { ... }
-
-      '2xl': '1280px',
-      // => @media (min-width: 1536px) { ... }
     },
     container: {
       padding: {
