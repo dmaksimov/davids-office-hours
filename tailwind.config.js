@@ -30,7 +30,12 @@ module.exports = {
         'cta-pattern': "url('/images/cta-bg.png')",
         'code-illustration': "url('/images/code-illustration.png')",
       }),
-
+      scale: {
+        '-1': '-1',
+      },
+      zIndex: {
+        '-1': '-1',
+      }
     },
     screens: {
       'sm': '640px',
@@ -51,8 +56,8 @@ module.exports = {
     container: {
       padding: {
         DEFAULT: '1rem',
-        sm: 0,
-        lg: 0,
+        sm: '1rem',
+        lg: '1rem',
         xl: 0,
         '2xl': 0,
       },

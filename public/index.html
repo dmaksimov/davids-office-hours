@@ -10,78 +10,74 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Raleway:wght@400;700;800&family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
 </head>
 <body class="font-sans-primary antialiased">
-    <div class="py-16 bg-splash bg-no-repeat bg-cover">
-        <div class="container mx-auto max-w-screen-lg flex justify-between items-center">
-            <div>
-                <h1 class="font-sans-secondary uppercase text-white">
-                    <a href="/">
-                        <span class="font-extrabold text-8xl leading-3">David&rsquo;s</span>
-                        <br>
-                        <span class="text-5xl">Office Hours</span>
-                    </a>
-                </h1>
+    <div class="pt-16 pb-12 bg-splash bg-no-repeat bg-cover">
+        <div class="container mx-auto max-w-screen-lg">
+            <div class="lg:flex">
+                <div>
+                    <h1 class="font-sans-secondary uppercase text-white text-center mb-10 lg:text-left lg:mb-20">
+                        <a href="/">
+                            <span class="font-extrabold text-7xl leading-3 lg:text-8xl">David&rsquo;s</span>
+                            <br>
+                            <span class="text-4xl lg:text-5xl">Office Hours</span>
+                        </a>
+                    </h1>
 
-                <div class="mt-20">
-                    <p class="text-white text-2xl">Hi, I'm David</p>
-                    <p class="text-white text-4xl">I'm really good at solving problems.</p>
-                    <p class="text-white text-4xl">Let me help you solve yours!</p>
+                    <div>
+                        <p class="text-white text-2xl text-center mb-6 lg:text-left lg:mb-0">Hi! I'm David...</p>
+                        <img class="w-1/2 mb-10 mx-auto lg:hidden" src="/images/david1.png" alt="David's Office Hours">
 
-                    <div class="mt-10">
-                        <a class="font-sans-secondary font-bold text-white text-xl uppercase py-4 px-8 bg-orange rounded-lg inline-block shadow" href="#">Book a Session</a>
+                        <p class="text-white text-2xl text-center mb-4 lg:text-4xl lg:text-left lg:mb-0">I'm really good at solving problems.</p>
+                        <p class="text-white text-2xl text-center mb-10 lg:text-4xl lg:text-left">Let me help you solve yours!</p>
+
+                        <div class="text-center lg:text-left">
+                            <a class="font-sans-secondary font-bold text-white text-xl uppercase py-4 px-8 bg-orange rounded-lg inline-block shadow" href="#">Book a Session</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <img src="/images/david1.png" alt="David's Office Hours">
+                <div class="hidden lg:block">
+                    <img class="mx-auto" src="/images/david1.png" alt="David's Office Hours">
+                </div>
             </div>
         </div>
     </div>
 
     <div class="bg-cta-pattern">
-        <div class="container mx-auto max-w-screen-lg py-10 flex">
-            <div class="w-6/12 mr-20">
-                <p class="text-lg text-white font-bold leading-6">I’m the lead developer at CMS Max where I build and maintain a proprietary content management system (CMS). Over the years I’ve had a lot of opportunities to solve very unique problems. I’ve learned to get to the heart of the matter and to find not just the best solution, but the most appropriate one given the time and resources at hand.</p>
-            </div>
-            <div class="w-6/12 mr-20">
-                <p class="text-3xl text-white font-bold">I also love to help people. I want to use what I’ve learned to help other developers.</p>
-                <p class="mt-4">
-                    <a class="font-sans-secondary font-bold text-white text-xl uppercase py-4 px-8 bg-orange rounded-lg inline-block shadow" href="#">Book a Session</a>
-                </p>
-            </div>
+        <div class="container mx-auto max-w-screen-lg py-8">
+            <p class="text-lg text-white font-bold leading-6 mb-4">I’m the lead developer at CMS Max where I build and maintain a proprietary content management system (CMS). Over the years I’ve had a lot of opportunities to solve very unique problems. I’ve learned to get to the heart of the matter and to find not just the best solution, but the most appropriate one given the time and resources at hand.</p>
+            <p class="text-lg text-white font-bold">I also love to help people. I want to use what I’ve learned to help other developers.</p>
         </div>
     </div>
 
     <div class="bg-blue-light py-10">
         <div class="container mx-auto max-w-screen-lg">
-            <div class="flex justify-between items-center">
-                <div class="w-7/12 pr-12">
-                    <div class="bg-white py-4 px-8 -ml-5 mb-5 relative">
-                        <img class="absolute top-6 -right-20" src="/images/hmm-rectangle.png" alt="rectangle">
-                        <h2 class="text-4xl font-sans-secondary font-bold mb-5">Do you have questions like...</h2>
+            <div class="lg:flex lg:justify-between lg:items-center">
+                <img class="w-1/2 mb-8 lg:order-2 lg:w-auto" src="/images/david2.png" alt="David's Office Hours hmmm....">
+
+                <div class="lg:order-1 lg:w-7/12 lg:pr-12">
+                    <div class="bg-white py-4 px-8 mb-5 ml-10 relative z-0 lg:ml-0">
+                        <img class="absolute top-6 -left-10 -z-1 transform -scale-x-1 lg:hidden" src="/images/hmm-rectangle.png" alt="rectangle">
+                        <img class="hidden absolute top-6 -right-20 -z-1 transform lg:block" src="/images/hmm-rectangle.png" alt="rectangle">
+                        <h2 class="text-3xl font-sans-secondary font-bold mb-5 lg:text-4xl">Do you have questions like...</h2>
                         <ul class="list-disc ml-6">
-                            <li class="font-sans-body-alternative text-2xl mb-1">Am I over engineering this?</li>
-                            <li class="font-sans-body-alternative text-2xl mb-1">Should I go with code design A or design B?</li>
-                            <li class="font-sans-body-alternative text-2xl mb-1">Is there any other way to solve this problem where I can satisfy the requirements with less work? </li>
+                            <li class="font-sans-body-alternative text-xl mb-1 lg:text-2xl">Am I over engineering this?</li>
+                            <li class="font-sans-body-alternative text-xl mb-1 lg:text-2xl">Should I go with code design A or design B?</li>
+                            <li class="font-sans-body-alternative text-xl mb-1 lg:text-2xl">Is there any other way to solve this problem where I can satisfy the requirements with less work? </li>
                         </ul>
                     </div>
 
-                    <div class="mr-10">
-                        <p class="font-sans-body-alternative text-lg leading-5 mb-5">These are all questions developers like you and me have to wrestle with on a daily basis. Oftentimes, you’re left to decide on your own. What if you had someone other than a rubber ducky to talk through problem or solution?</p>
+                    <p class="font-sans-body-alternative text-lg leading-6 mb-5">These are all questions developers like you and me have to wrestle with on a daily basis. Oftentimes, you’re left to decide on your own. What if you had someone other than a rubber ducky to talk through problem or solution?</p>
 
-                        <p class="font-sans-body-alternative text-lg leading-5">There are never any clear cut answers - every problem is unique. By taking some time to think and talk through the scenario we can come up with something that’ll help you move forward.</p>
-                    </div>
-                </div>
-                <div class="w-5/12">
-                    <img src="/images/david2.png" alt="David's Office Hours hmmm....">
+                    <p class="font-sans-body-alternative text-lg leading-6">There are never any clear cut answers - every problem is unique. By taking some time to think and talk through the scenario we can come up with something that’ll help you move forward.</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="bg-code-illustration bg-no-repeat bg-left">
+
+    <div class="bg-code-illustration">
         <div class="container mx-auto max-w-screen-lg">
-            <div class="flex justify-end">
-                <div class="w-1/2 py-40 px-4 bg-opacity-80 bg-white ">
+            <div class="lg:flex lg:justify-end">
+                <div class="px-6 py-16 lg:w-1/2 lg:py-40 lg:px-4 lg:bg-opacity-80 lg:bg-white">
                     <div class="flex mb-10">
                         <div class="flex-1">
                             <h4 class="text-2xl font-bold mb-2">I speak</h4>
@@ -100,18 +96,19 @@
                         </div>
                     </div>
 
-                    <div class="bg-orange py-5 px-7 mr-4">
-                        <p class="text-white text-2xl">Have questions about other languages or frameworks? Just ask. At the very least I can point you in the right direction.</p>
+                    <div class="bg-orange py-5 px-7">
+                        <p class="text-white text-xl lg:text-2xl">Have questions about other languages or frameworks? Just ask. At the very least I can point you in the right direction.</p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+
     <div class="bg-dark">
-        <div class="container mx-auto max-w-screen-lg py-36 px-44">
-            <h2 class="text-white text-5xl uppercase font-bold">What You Get</h2>
-            <div class="w-11 h-0.5 bg-white my-4"></div>
+        <div class="container mx-auto max-w-screen-lg py-16 px-8 lg:py-36 lg:px-44">
+            <h2 class="text-white text-4xl uppercase font-bold lg:text-5xl">What You Get</h2>
+            <div class="w-11 h-0.5 bg-white my-8"></div>
             <ul class="list-disc ml-5">
                 <li class="text-white text-xl font-bold">Quality one on one video session</li>
                 <li class="text-white text-xl font-bold">We’ll work to clarify the problem at hand and get to the heart of the matter</li>
@@ -122,7 +119,7 @@
     </div>
 
     <div class="bg-cta-pattern">
-        <div class="container mx-auto max-w-screen-lg py-14 px-12">
+        <div class="container mx-auto max-w-screen-lg py-14 px-6 lg:px-12">
             <p class="text-white text-xl font-bold mb-6">Have a general question or want to get in touch? Contact me below.</p>
 
             <form action="">
