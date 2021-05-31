@@ -15,7 +15,8 @@ module.exports = {
     colors: {
       transparent: colors.transparent,
       orange: {
-        DEFAULT: '#ec7423'
+        DEFAULT: '#ec7423',
+        light: '#f47724',
       },
       white: colors.white,
       blue: {
@@ -57,8 +58,7 @@ module.exports = {
     container: {
       padding: {
         DEFAULT: '1rem',
-        sm: '1rem',
-        lg: '1rem',
+        lg: '2rem',
         xl: 0,
         '2xl': 0,
       },
