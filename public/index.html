@@ -139,20 +139,20 @@
         <div class="container mx-auto max-w-screen-lg py-14 px-6 lg:px-12">
             <p class="text-white text-xl font-bold mb-6">Have a general question or want to get in touch? Contact me below.</p>
 
-            <form action="">
+            <form name="contact" method="POST" data-netlify="true">
                 <div>
                     <label class="text-white text-xl block mb-2">Name*</label>
-                    <input class="w-full text-xl p-2 mb-5" type="text">
+                    <input class="w-full text-xl p-2 mb-5" type="text" name="name">
                 </div>
 
                 <div>
                     <label class="text-white text-xl block mb-2">Email*</label>
-                    <input class="w-full text-xl p-2 mb-5" type="text">
+                    <input class="w-full text-xl p-2 mb-5" type="text" name="email">
                 </div>
 
                 <div>
                     <label class="text-white text-xl block mb-2">Question / Comment*</label>
-                    <textarea class="w-full text-xl p-2 mb-5" name="" id="" cols="30" rows="8"></textarea>
+                    <textarea class="w-full text-xl p-2 mb-5" name="message" cols="30" rows="8"></textarea>
                 </div>
 
                 <button class="font-sans-secondary font-bold text-white text-xl uppercase py-4 px-8 bg-orange rounded-lg inline-block shadow hover:bg-orange-light">Submit</button>
