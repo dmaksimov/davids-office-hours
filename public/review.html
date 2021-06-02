@@ -24,6 +24,23 @@
 
       gtag('config', 'G-ET2M5Y664X');
     </script>
+    <script>
+      (function(w,d,s,r,n){w.TrustpilotObject=n;w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)};
+        a=d.createElement(s);a.async=1;a.src=r;a.type='text/java'+s;f=d.getElementsByTagName(s)[0];
+        f.parentNode.insertBefore(a,f)})(window,document,'script', 'https://invitejs.trustpilot.com/tp.min.js', 'tp');
+      tp('register', 'XNNgD7RNnW25XNI9');
+    </script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const trustpilot_invitation = {
+          recipientEmail: 'john@gmail.com',
+          recipientName: 'John',
+          referenceId: 'Order_123',
+          source: 'InvitationScript',
+        };
+        tp('createInvitation', trustpilot_invitation);
+      });
+    </script>
 </head>
 <body class="font-sans-primary antialiased">
     <div class="pt-3 pb-12 bg-splash bg-no-repeat bg-cover">
@@ -171,23 +188,5 @@
     </div>
 
     <script src="https://kit.fontawesome.com/809953a5c0.js" crossorigin="anonymous"></script>
-
-    <script>
-      (function(w,d,s,r,n){w.TrustpilotObject=n;w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)};
-        a=d.createElement(s);a.async=1;a.src=r;a.type='text/java'+s;f=d.getElementsByTagName(s)[0];
-        f.parentNode.insertBefore(a,f)})(window,document,'script', 'https://invitejs.trustpilot.com/tp.min.js', 'tp');
-      tp('register', 'XNNgD7RNnW25XNI9');
-    </script>
-    <script>
-      document.addEventListener('DOMContentLoaded', function() {
-        const trustpilot_invitation = {
-          recipientEmail: 'john@gmail.com',
-          recipientName: 'John',
-          referenceId: 'Order_123',
-          source: 'InvitationScript',
-        };
-        tp('createInvitation', trustpilot_invitation);
-      });
-    </script>
 </body>
 </html>
